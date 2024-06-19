@@ -2,7 +2,7 @@ import Koa from "koa";
 import bodyParser from "koa-bodyparser";
 import json from "koa-json";
 
-import { router } from "./routes";
+import { router } from "./src/routes";
 
 const app = new Koa();
 
